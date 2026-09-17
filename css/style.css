@@ -1,0 +1,216 @@
+  /* ============== CONFIGURAÇÕES GERAIS ================ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef7ff;
+    color: #102a43;
+}
+
+/* ======= TOPO ========================= */
+
+.topo {
+    background-color: #071a33;
+    color: white;
+    padding: 25px 50px;
+    min-height: 130px;
+}
+
+.logo {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 38px;
+}
+
+.logo span {
+    color: #38bdf8;
+}
+
+.logo p {
+    margin-top: 5px;
+    color: #a9d8f5;
+    letter-spacing: 3px;
+}
+
+.informacao {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.informacao h3 {
+    margin: 0;
+    color: white;
+}
+
+.informacao p {
+    color: #a9d8f5;
+}
+
+/* ==================== MENU ======================== */
+
+.menu {
+    background-color: #0b2747;
+    text-align: center;
+    padding: 0;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 22px 28px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    background-color: #1685d8;
+}
+
+/* ============ FERRAMENTAS ================ */
+
+.ferramentas {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.ferramentas h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #0b3155;
+}
+
+.ferramentas > p {
+    color: #52708c;
+    margin-bottom: 30px;
+}
+
+/* ================== CARDS ================ */
+
+.card {
+    display: inline-block;
+    width: 30%;
+    min-height: 230px;
+    margin: 1%;
+    padding: 30px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    vertical-align: top;
+
+    /* brilho azul inspirado no Gojo */
+    border: 1px solid #c4e7fa;
+    box-shadow: 0 5px 20px rgba(30, 144, 255, 0.15);
+}
+
+.card:hover {
+    box-shadow: 0 8px 28px rgba(30, 144, 255, 0.25);
+    border-color: #70cfff;
+}
+
+.icone {
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: #1685d8;
+}
+
+.card h3 {
+    font-size: 21px;
+    margin: 10px 0;
+    color: #0b3155;
+}
+
+.card p {
+    color: #52708c;
+    line-height: 1.5;
+    min-height: 45px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #1685d8;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+
+    /* efeito de energia azul */
+    box-shadow: 0 0 12px rgba(22, 133, 216, 0.35);
+}
+
+.botao:hover {
+    background-color: #075ca8;
+    box-shadow: 0 0 18px rgba(56, 189, 248, 0.55);
+}
+
+.legenda {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    color: #24445f;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.campo {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #9dd7f5;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    background-color: #f5fbff;
+    color: #102a43;
+}
+
+.campo:focus {
+    outline: none;
+    border-color: #1685d8;
+    box-shadow: 0 0 8px rgba(22, 133, 216, 0.3);
+}
+
+/* ================ RODAPÉ =============== */
+
+.rodape {
+    background-color: #071a33;
+    color: white;
+    padding: 35px 50px;
+    margin-top: 60px;
+}
+
+.rodape-coluna {
+    display: inline-block;
+    width: 32%;
+    vertical-align: top;
+}
+
+.rodape h3 {
+    margin-top: 0;
+    color: #7dd3fc;
+}
+
+.rodape p {
+    color: #a9d8f5;
+}
+
+.copyright {
+    text-align: center;
+    border-top: 1px solid #214568;
+    margin-top: 30px;
+    padding-top: 20px;
+    color: #7191ad;
+}
